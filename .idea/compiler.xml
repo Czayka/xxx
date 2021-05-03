@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xxx-getway" />
+        <module name="xxx-common" />
+        <module name="xxx-registry" />
+        <module name="xxx-item-entity" />
+        <module name="xxx-item-service" />
+        <module name="xxx-item-interface" />
+        <module name="xxx-upload" />
+        <module name="xxx-search" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xxx-common" options="-parameters" />
+      <module name="xxx-getway" options="-parameters" />
+      <module name="xxx-item-entity" options="-parameters" />
+      <module name="xxx-item-interface" options="-parameters" />
+      <module name="xxx-item-service" options="-parameters" />
+      <module name="xxx-registry" options="-parameters" />
+      <module name="xxx-search" options="-parameters" />
+      <module name="xxx-upload" options="-parameters" />
+    </option>
+  </component>
+</project>

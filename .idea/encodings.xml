@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-getway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-getway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-getway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/xxx-item-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/xxx-item-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/xxx-item-entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/xxx-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/xxx-item-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/xxx-item-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/xxx-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/xxx-item-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-item/xxx-item-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-registry/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxx-upload/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

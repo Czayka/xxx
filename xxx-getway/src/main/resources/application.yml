@@ -1,0 +1,34 @@
+server:
+  port: 5555
+spring:
+  application:
+    name: api-getway
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+zuul:
+  prefix: /api #添加路由前缀
+  routes:
+    item-service: /item/**
+    search-service: /search/**
+    upload-service:
+      path: /upload/**
+      serviceId: upload-service
+      strip-prefix: false
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000 #熔断超时时长
+ribbon:
+  ConnectTimeout: 1000 #单位ms,请求连接超时时间
+  ReadTimeout: 3500 #单位ms,请求处理的超时时间
+  MaxAutoRetriesNextServer: 0 #切换实例的重试次数
+  MaxAutoRetries: 0 #对当前实例的重试次数

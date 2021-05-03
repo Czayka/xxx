@@ -1,0 +1,37 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: item-service
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/wyy?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    host: 192.168.32.128
+    username: xxx
+    password: xxx
+    virtual-host: /xxx
+    template: #模板信息
+      retry:  #重试信息
+        enabled: true #开启重试
+        initial-interval: 10000ms #初始化重试周期
+        max-interval: 30000ms #最大重试周期
+        multiplier: 2 #重试周期倍数
+      exchange: xxx.item.exchange #默认的交换机
+    publisher-confirms: true  #开启生产者确认
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.xxx.item
+logging:
+  level:
+    root: info
+    com.xxx: debug
+    org.springframework.security: warn
